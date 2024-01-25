@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #2c84c280;
+    
+}
+.i:hover{
+
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0 5px;
+}
+.gridiiii{
+    
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 40px;
+
+}
+.itemp,.itemq,.itemr,.items,.itemt{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+   
+    
+}
+footer{
+        background-color:  #2c84c280;
+        background-size: 400px;
+        height: 130px;
+        text-align: center;
+        color: navy;
+    }
+    #about 
+    {
+        text-align: center;
+        color: navy;
+    }
+    #abt
+    {
+        text-align: center;
+    }
+    #about {
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+    
+    .m,
+    .m2 {
+        flex: 1;
+        margin: 10px;
+
+    }
+    .i {
+        width: 100%;
+        max-width: 600px; 
+        height: auto;
+    }
+    
+    #abt {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+   
+    .z {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: navy;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    #h2
+    {
+        text-align: center;
+        color: navy;
+        padding-left:48px ;
+    }
+    #menu {
+        text-align: center;
+        padding: 40px;
+    }
+    .a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .a:hover {
+        background-color:navy;
+        color: #fff;
+    }
+    #home {
+        text-align: center;
+    }
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #contact {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+        justify-content: space-around; /* Adjust as needed */
+        align-items: center;
+        padding: 20px;
+    }
+
+    #contact h2 {
+        flex: 100%; /* Full width for the heading */
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+        justify-content: space-around; /* Adjust as needed */
+        align-items: stretch;
+        width: 100%; /* Full width for the row */
+    }
+
+    #contact iframe,
+    #contact form {
+        flex: 1; /* Equal width for both the map and form */
+        box-sizing: border-box; /* Include padding and border in the total width */
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .inputbox {
+        margin-bottom: 15px;
+        padding-left: 150px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+        width: 300px;
+        padding: 10px;
+        
+    }
+
+#btn
+{
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width: 50px;
+
+}
+.gridiii{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding-left: 150px;
+}
+.iteml,.itemk,.itemm{
+    gap: 10px;
+    width: 300px;
+    background-color: ghostwhite;
+} 
+#bodycare {
+    text-align: center;
+    padding: 40px;
+}
+#cleansers {
+    text-align: center;
+    padding: 40px;
+}
+#deodrants {
+    text-align: center;
+    padding: 40px;
+}
+
+#showergel {
+    text-align: center;
+    padding: 40px;
+}
+#lipcare{
+    text-align: center;
+    padding: 40px;
+}
+#sunscreen {
+    text-align: center;
+    padding: 40px;
+}
+#handcream {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.itema:hover{
+    border: 4px solid navy;
+}
+.itemb:hover{
+    border: 4px solid navy;
+}
+.itemc:hover{
+    border: 4px solid navy;
+}
+.itemd:hover{
+    border: 4px solid navy;
+}
+.iteme:hover{
+    border: 4px solid navy;
+}
+.itemf:hover{
+    border: 4px solid navy;
+}
+.item1:hover{
+    border: 4px solid navy;
+}
+.item2:hover{
+    border: 4px solid navy;
+}
+.item3:hover{
+    border: 4px solid navy;
+}
+.item4:hover{
+    border: 4px solid navy;
+}
+
+.itemz:hover{
+    border: 4px solid navy;
+}
+.itemy:hover{
+    border: 4px solid navy;
+}
+.itemx:hover{
+    border: 4px solid navy;
+}
+.itemw:hover{
+    border: 4px solid navy;
+}
+.itemu:hover{
+    border: 4px solid navy;
+}
+.itemv:hover{
+    border: 4px solid navy;
+}
+.item5:hover{
+    border: 4px solid navy;
+}
+.item6:hover{
+    border: 4px solid navy;
+}
+.item7:hover{
+    border: 4px solid navy;
+}
+
+.itemz:hover{
+    border: 4px solid navy;
+}
+.itemy:hover{
+    border: 4px solid navy;
+}
+.itemx:hover{
+    border: 4px solid navy;
+}
+.itemw:hover{
+    border: 4px solid navy;
+}
+.itemu:hover{
+    border: 4px solid navy;
+}
+.itemv:hover{
+    border: 4px solid navy;
+}
+.item5:hover{
+    border: 4px solid navy;
+}
+.item6:hover{
+    border: 4px solid navy;
+}
+.item7:hover{
+    border: 4px solid navy;
+}
+.item8:hover{
+    border: 4px solid navy;
+}
+.item9:hover{
+    border: 4px solid navy;
+}
+.item10:hover{
+    border: 4px solid navy;
+}
+.item11:hover{
+    border: 4px solid navy;
+}
+.item12:hover{
+    border: 4px solid navy;
+}
+.item13:hover{
+    border: 4px solid navy;
+}
+.item14:hover{
+    border: 4px solid navy;
+}
+.item15:hover{
+    border: 4px solid navy;
+}
+.item16:hover{
+    border: 4px solid navy;
+}
+.item17:hover{
+    border: 4px solid navy;
+}
+.item18:hover{
+    border: 4px solid navy;
+}
+.item19:hover{
+    border: 4px solid navy;
+}
+.item20:hover{
+    border: 4px solid navy;
+}
+.item21:hover{
+    border: 4px solid navy;
+}
+.item22:hover{
+    border: 4px solid navy;
+}
+.item23:hover{
+    border: 4px solid navy;
+}
+.item24:hover{
+    border: 4px solid navy;
+}
+.item25:hover{
+    border: 4px solid navy;
+}
+
+
+.gridii {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.gridii1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridii2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridii3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridii4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridii5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#img01,#img02,#img03,#img04,#img05,#img06,#img07,#img08,#img09,#img10,#img11,#img12,#img13,#img14,#img15,#img16,#img17
+#img18,#img19,#img20,#img21,#img22,#img23,#img24,#img25,#img26,#img27,#img28,#img29,#img30,#img31,#img32,#img33,#img34,#img35,#img36,#img37,#img38 {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+}
+
+
+h2 {
+    color: navy;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: navy;
+}
+
+h4 {
+    color: navy;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: navy;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: navy;
+}
+.mg{
+    border-radius: 50%;
+    padding:3px;
+    margin-left: -10px;
+}
+#carousel {
+    width: 100%;
+    height:520px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+    
+}
+#carousel .slide {
+    display: inline-block;
+}
+#carousel:hover{
+    border: 5px solid navy;
+}
+#mark
+{
+   margin-left: 330px;
+}
+.z:hover{
+    background-color: white;
+    color: navy;
+}
+#btn:hover{
+    background-color: white;
+    color: navy;
+}
